@@ -16,15 +16,15 @@ int loff=D8;
 DHT dht(DHTPIN, DHTTYPE);
 /********* WiFi Access Point ***********/
 
-#define WLAN_SSID       "OnePlus 6"
-#define WLAN_PASS       "Oneplus6"
+#define WLAN_SSID       # "Your wifi name"
+#define WLAN_PASS       # "Password"
 
 /********* Adafruit.io Setup ***********/
 
 #define AIO_SERVER      "io.adafruit.com"
 #define AIO_SERVERPORT  1883                   // use 8883 for SSL
-#define AIO_USERNAME    "Venuu"
-#define AIO_KEY         "fb3fccce241a4a73b3ec5f8318a63133"
+#define AIO_USERNAME    # "Adafruit user name"
+#define AIO_KEY         # "Adafruit aiokey"
 
 /**** Global State (you don't need to change this!) ******/
 
